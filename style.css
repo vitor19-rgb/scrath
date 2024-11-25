@@ -1,0 +1,130 @@
+header > h1{
+    text-align: center;
+    color: black;
+    
+}
+header{
+    width: 80%;
+    padding: 10% 10%;
+    padding: 0;
+    margin: 0;
+   
+    height: 10%;
+    background-color: rgb(19, 229, 82);
+}
+header > h3{
+    text-align: center;
+    color: black;
+}
+header > button{
+    text-align: center;
+    color: black;
+}
+header > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 100%;
+    
+    height: 20%;
+    background-color: rgb(19, 229, 82);
+    text-align: center;
+}
+.ide{
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hoobe{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 50px;
+}
+#cletim{
+    height: 50px;
+    width: 50px;
+}
+#chama{
+     background: none;
+     border: none;
+}
+/* Estilos gerais */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Cabeçalho */
+header {
+    width: 100%;
+    padding: 20px 5%;
+    box-sizing: border-box;
+    height: auto;
+}
+
+header > h1 {
+    font-size: 24px;
+}
+
+header > h3 {
+    font-size: 18px;
+}
+
+/* Seções */
+section {
+    width: 100%;
+    padding: 20px 5%;
+    box-sizing: border-box;
+}
+
+/* Imagens responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Texto responsivo */
+.ide, .hoobe {
+    font-size: 18px;
+}
+
+/* Media queries para diferentes tamanhos de tela */
+@media screen and (min-width: 768px) {
+    header > h1 {
+        font-size: 32px;
+    }
+
+    header > h3 {
+        font-size: 24px;
+    }
+
+    .ide, .hoobe {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header > h1 {
+        font-size: 40px;
+    }
+
+    header > h3 {
+        font-size: 28px;
+    }
+
+    .ide, .hoobe {
+        font-size: 30px;
+    }
+}
+
+/* Ajuste para o botão e imagem */
+#meuBotao {
+    margin-bottom: 10px;
+}
+
+#imagem {
+    max-width: 100%;
+    height: 200px;
+}
